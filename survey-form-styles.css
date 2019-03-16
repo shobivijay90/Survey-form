@@ -1,0 +1,43 @@
+#title{
+  text-align: center;
+  background-color: aqua;
+  padding: 10px;
+}
+#description{
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  width: 75%;
+  margin: auto;
+}
+.left-side{
+display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: middle;
+}
+.right-side{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  padding: 5px;
+}
+#name,#email,#age{
+  height: 30px;
+  width: 200px;
+}
+#dropdown{
+  height: 30px;
+  width: 150px;
+}
+#radio,#checkbox,#textarea{
+  vertical-align: top;
+  padding: 10px;
+}
+#submit{
+ background-color: orange;
+ font-size: 20px;
+ padding: 10px;
+ border-radius: 5px;
+  width: 100px;
+}

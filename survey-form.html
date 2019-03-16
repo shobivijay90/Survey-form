@@ -1,0 +1,95 @@
+<html>
+  <head>
+  <link href="survey-form-styles.css" rel="stylesheet">
+    <div id="title">
+      <h1>Survey Form</h1>
+      </head>
+	  <body>
+    <div id="description">
+      <p>Let us know how we can improve freeCodeCamp</p>
+      
+    <form id="survey-form">
+      
+        <div class="left-side">
+        <label id="name-label">*Name:</label>
+        </div>
+      
+          <div class="right-side">
+        <input type="text" placeholder="Enter your name" id="name" required>
+      </div>
+      
+      <div class="left-side">
+        <label id="email-label">*Email:</label>
+        </div>
+      
+          <div class="right-side">
+        <input type="email" placeholder="Enter your email" id="email" required>
+      </div>
+      
+      <div class="left-side">
+        <label id="age-label">*Age:</label>
+        </div>
+      
+          <div class="right-side">
+        <input type="number" min="18" max="50" placeholder="Enter your age" id="age" required>
+      </div>
+      
+      <div class="left-side">
+        <label id="role-label">Which option best describes your current role?</label>
+        </div>
+      
+          <div class="right-side">
+        <select name="role" id="dropdown">
+          <option disabled value>Select an option</option>
+          <option value="student">Student</option>
+          <option value="Full time job">Full time job</option>
+          <option value="Full time learner">Full time learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>  
+            </select>
+      </div>
+            
+    <div class="left-side">
+        <label id="friend-label">*How likely is that you would recommend freeCodeCamp to a a friend?</label>
+        </div>
+            
+          <div class="right-side" id="radio">
+        <input type="radio" name="radio" value="Definitely">Definitely<br>
+        <input type="radio" name="radio" value="May be">May be<br>
+            <input type="radio" name="radio" value="Not sure">Not sure<br>
+      </div>
+      
+      <div class="left-side">
+        <label id="future-label">Things that should be improved in the future
+(Check all that apply):</label>
+        </div>
+      
+      <div class="right-side" id="checkbox">
+        <input type="checkbox" name="checkbox" value="checkbox">Front-end projects<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Back-end projects<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Data visualization<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Open source community<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Gitter help rooms<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Videos<br>
+        <input type="checkbox" name="checkbox" value="checkbox">City meetups<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Wiki<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Forums<br>
+        <input type="checkbox" name="checkbox" value="checkbox">Additional Courses<br>
+      </div>
+      
+   <div class="left-side">
+        <label id="future-label">Any Comments or Suggestions?</label>
+        </div>
+      
+      <div class="right-side" id="textarea">
+        <textarea rows="4" cols="30">Enter your comments here..
+        </textarea>
+      </div> 
+      <div>
+      <button id="submit" type="submit">Submit</button>
+      </div>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
